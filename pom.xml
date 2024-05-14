@@ -9,29 +9,8 @@
     <version>0.0.1</version>
     <packaging>jar</packaging>
 
-    <name>Simple Testing Framework Example</name>
-    <description>The project has examples of common used objects and structures for automation testing.</description>
-    <url>https://github.com/miqa-rwg/java-maven-cucumber-junit.git</url>
-
-    <licenses>
-        <license>
-            <name>Unlicensed</name>
-            <url>https://unlicense.org</url>
-        </license>
-    </licenses>
-
-    <developers>
-        <developer>
-            <name>Maksym Ivanov</name>
-            <email>ivanovmv2510@gmail.com</email>
-        </developer>
-    </developers>
-
-    <scm>
-        <connection>scm:git:git://github.com/miqa-rwg/java-maven-cucumber-junit.git</connection>
-        <developerConnection>scm:git:ssh://github.com:miqa-rwg/java-maven-cucumber-junit.git</developerConnection>
-        <url>https://github.com/miqa-rwg/java-maven-cucumber-junit/tree/main</url>
-    </scm>
+    <name>java-maven-cucumber-junit</name>
+    <url>https://maven.apache.org</url>
 
     <distributionManagement>
         <repository>
