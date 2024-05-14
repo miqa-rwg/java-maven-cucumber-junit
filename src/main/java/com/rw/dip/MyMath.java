@@ -1,4 +1,4 @@
-package com.re.dip;
+package com.rw.dip;
 
 public class MyMath {
 
