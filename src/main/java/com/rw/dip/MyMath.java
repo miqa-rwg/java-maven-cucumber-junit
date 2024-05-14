@@ -1,4 +1,4 @@
-package home.javaqa.mi;
+package com.re.dip;
 
 public class MyMath {
 

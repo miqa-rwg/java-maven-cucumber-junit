@@ -1,7 +1,7 @@
-package home.javaqa.mi.steps;
+package com.rw.dip.steps;
 
-import home.javaqa.mi.MyMath;
-import home.javaqa.mi.context.Context;
+import com.rw.dip.MyMath;
+import com.rw.dip.context.Context;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 

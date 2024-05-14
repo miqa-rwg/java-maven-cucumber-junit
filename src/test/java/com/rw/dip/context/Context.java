@@ -1,4 +1,4 @@
-package home.javaqa.mi.context;
+package com.rw.dip.context;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

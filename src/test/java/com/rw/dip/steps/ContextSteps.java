@@ -1,6 +1,6 @@
-package home.javaqa.mi.steps;
+package com.rw.dip.steps;
 
-import home.javaqa.mi.context.Context;
+import com.rw.dip.context.Context;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;

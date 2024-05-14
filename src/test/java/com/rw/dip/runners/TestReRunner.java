@@ -1,4 +1,4 @@
-package home.javaqa.mi.runners;
+package com.rw.dip.runners;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
                 "html:target/cucumber-reports/output/report-rerun.html",
         },
 //        features = "@target/rerun.txt",
-        glue = { "home.javaqa.mi.steps" },
+        glue = { "com.rw.dip.steps" },
         monochrome = true
 )
 public class TestReRunner {
