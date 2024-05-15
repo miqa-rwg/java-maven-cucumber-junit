@@ -49,7 +49,7 @@ public class ContextSteps {
             case "string" -> value;
             case "boolean" -> Boolean.getBoolean(value);
             case "float" -> Float.parseFloat(value);
-            default -> throw new RuntimeException("Oops! Unexpected type!");
+            default -> throw new RuntimeException("Oops! Unexpected type!\n" + key);
         };
     }
 }
