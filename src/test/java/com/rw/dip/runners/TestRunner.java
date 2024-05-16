@@ -9,10 +9,11 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {
                 "pretty",
-                "json:target/cucumber-reports/cucumber.json",
-                "junit:target/cucumber-reports/cucumber.xml",
-                "html:target/cucumber-reports/output/report.html",
-                "rerun:target/rerun.txt"
+                "html:target/cucumber/reports/report.html",
+                "json:target/cucumber/reports/cucumber.json",
+                "junit:target/cucumber/reports/cucumber.xml",
+                "timeline:target/cucumber/reports/timeline",
+                "rerun:target/cucumber/rerun.txt"
         },
         features = "src/test/resources/features",
         glue = { "com.rw.dip.steps" },
