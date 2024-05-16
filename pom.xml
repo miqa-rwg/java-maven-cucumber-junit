@@ -6,7 +6,7 @@
 
     <groupId>com.rw.dip</groupId>
     <artifactId>java-maven-cucumber-junit</artifactId>
-    <version>0.0.1-20240515.02</version>
+    <version>0.0.1-20240516.01</version>
     <packaging>jar</packaging>
 
     <name>java-maven-cucumber-junit</name>
