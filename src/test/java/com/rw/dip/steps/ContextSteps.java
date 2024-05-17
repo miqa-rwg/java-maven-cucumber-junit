@@ -25,7 +25,6 @@ public class ContextSteps {
         assertEquals(key, object.getClass().getSimpleName().toLowerCase());
     }
 
-
     @And("Using {}, I update value in the context")
     public void usingIUpdateValueInTheContext(String key) {
         Object object = Context.get(key, Object.class);
@@ -39,13 +38,11 @@ public class ContextSteps {
             Context.update(key, (Float) object + 1);
     }
 
-
     @And("Using {}, I remove value from the context")
     public void usingIRemoveValueFromTheContext(String key) {
         Context.remove(key);
         assertNull(Context.get(key, Object.class));
     }
-
 
     private Object convertValueToType(String key, String value) {
         return switch (key) {
