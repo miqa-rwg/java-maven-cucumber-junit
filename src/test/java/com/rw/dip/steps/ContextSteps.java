@@ -16,6 +16,7 @@ public class ContextSteps {
         Context.put(key, convertValueToType(key, value));
     }
 
+
     @When("Using {}, I get value from the context")
     public void usingIGetFromContext(String key) {
         Object object = Context.get(key, Object.class);
@@ -23,6 +24,7 @@ public class ContextSteps {
         assert object != null;
         assertEquals(key, object.getClass().getSimpleName().toLowerCase());
     }
+
 
     @And("Using {}, I update value in the context")
     public void usingIUpdateValueInTheContext(String key) {
@@ -37,11 +39,13 @@ public class ContextSteps {
             Context.update(key, (Float) object + 1);
     }
 
+
     @And("Using {}, I remove value from the context")
     public void usingIRemoveValueFromTheContext(String key) {
         Context.remove(key);
         assertNull(Context.get(key, Object.class));
     }
+
 
     private Object convertValueToType(String key, String value) {
         return switch (key) {
